@@ -1,0 +1,150 @@
+caeser:
+shift=3
+明文字母表：ABCDEFGHIJKLMNOPQRSTUVWXYZ
+密文字母表：DEFGHIJKLMNOPQRSTUVWXYZABC
+DEF GHIJ KLMN OPQR STUV WXYZ ABC
+
+escape/javascript:
+原文：qvod$$DVD版$qvod://571493395|B9252D01812F4A847CE6D9DD946357A251AC8EB6|大闹天宫3D_TS抢先版.rmvb|$qvod
+密文：qvod%24%24DVD%u7248%24qvod%3A//571493395%7CB9252D01812F4A847CE6D9DD946357A251AC8EB6%7C%u5927%u95F9%u5929%u5BAB3D_TS%u62A2%u5148%u7248.rmvb%7C%24qvod
+
+base64:
+明文：abcdefgasdfghjkl
+密文：YWJjZGVmZ2FzZGZnaGprbA==
+base32:
+明文：fewa
+密文：MZSXOYI=
+base16:
+明文：fewa
+密文：66657761
+
+md5:
+明文：123
+密文：202cb962ac59075b964b07152d234b70    （MD532）
+密文：ac59075b964b0715      （MD516）
+
+url：
+明文：http://tool.chinaz.com/tools/urlcrypt.aspx
+密文：http://%74%6F%6F%6C%2E%63%68%69%6E%61%7A%2E%63%6F%6D/tools/urlcrypt.aspx
+
+morse:
+明文：I LOVE YOU TOO
+密文：../.-../---/...-/./-.--/---/..-/-/---/---
+
+ascii：
+明文：The quick brown fox jumps over the lazy dog
+密文：84 104 101 32 113 117 105 99 107 32 98 114 111 119 110 32 102 111 120 32 106 117 109 112 115 32 111 118 101 114 32 116 104 101 32 108 97 122 121 32 100 111 103
+
+shellcode:
+明文：Thequickbrownfoxjumpsoverthelazydog
+密文：/x54/x68/x65/x7f/x71/x75/x69/x63/x6b/x7f/x62/x72/x6f/x77/x6e/x7f/x66/x6f/x78/x7f/x6a/x75/x6d/x70/x73/x7f/x6f/x76/x65/x72/x7f/x74/x68/x65/x7f/x6c/x61/x7a/x79/x7f/x64/x6f/x67
+
+quoted-printable:
+明文：敏捷的棕色狐狸跳过了懒惰的狗
+密文：=E6=95=8F=E6=8D=B7=E7=9A=84=E6=A3=95=E8=89=B2=E7=8B=90=E7=8B=B8=E8=B7=B3=E8=BF=87=E4=BA=86=E6=87=92=E6=83=B0=E7=9A=84=E7=8B=97
+
+vigenere:
+密钥：CULTURE
+明文：THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG
+密文：VBP JOZGM VCHQE JQR UNGGW QPPK NYI NUKR XFK
+密钥：emily
+明文：sittheedownandhavenoshamecheekbyjowlandkneebykneewhatcareiforanynamewhatfororderordegreeletmescrewtheeupapegletmeloosethytongu
+密文：owlijasvdyjofsjwjwcqovsbgyvwtmxmbdyhofsmjswqagbwtydolrcnsauqnofnpwawljwhxdtkfvttkfvtinswagpawhensoijasmeclsyagpawaqkgwijuhgciq
+密钥：emily
+明文：sittheedownandhavenoshamecheekbyjowlandkneebykneewhatcareiforanynamewhatfororderordegreeletmescrewtheeupapegletmeloosethytonguewithwinecallestthouthatthingalegwhichisthinnestthineorminethoushaltnotbesavedbyworksthouhastbeenasinnertooruinedtrunksonwitheredforksemptyscarecrowsiandyoufillthecupandfillthecanhavearousebeforethemorneverymomentdiesamaneverymomentoneisborn
+密文：wubefiqlzurmvofehmymwtixcgtmpifkrzupmvoirqmmwozmpulmbnyvqqqmvmvjleymhfefnzpsdlppsdlpevqmwcxymdavqeefiqcaytqowcxymwmsemefcfwyeyqetrliqycgmtwcwfbsmyfplrxtqyeexmruluksgwfptlrqaerluvpmvyqycxtwfqlmtelsfjpqehmozciwciwfpzslmaeziqvlqmzvppxawcsmzmorvgvvqszetrlqzpbjazvqiyxewwoiccgdwhqmmvowsgntjpfppaybiybjutwrlqklllmdpyvacdcfqnzpifppksdvptidgxmqqvebmqalkezmgcvkuzkizbzliuammvz
+
+栅栏：
+栅栏为2
+明文：The quick brown fox jumps over the lazy dog
+密文：Teucbonojmsvrhlzdghqikrwfxupoeteayo
+
+rot5:
+明文：123456
+密文：678901
+rot13:
+明文：abcdefg
+密文：nopqrst
+rot18：
+明文：abcdefg1234567
+密文：nopqrst6789012
+rot47:
+明文：ABCDabcd1234[]{}
+密文：pqrs2345`abc,.LN
+
+ATbash:
+明文:the quick brown fox jumps over the lazy dog
+密文:gsv jfrxp yildm ulc qfnkh levi gsv ozab wlt
+
+xxencode:
+明文：The quick brown fox jumps over the lazy dog
+密文：hJ4VZ653pOKBf647mPrRi64NjS0-eRKpkQm-jRaJm65FcNG-gMLdt64FjNkc+
+
+
+
+
+
+GET /charsetxxencode HTTP/1.1
+Host: web.chacuo.net
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.2; zh-CN; rv:1.9.2) Gecko/20100115 Firefox/3.6 ( .NET CLR 3.5.30729; .NET4.0E)
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-cn,zh;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: GB2312,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 115
+Connection: close
+
+
+GET /tbr?client=navclient-auto&ch=64245284807&ie=UTF-8&oe=UTF-8&features=Rank&q=info:http%3A//web.chacuo.net/charsetxxencode HTTP/1.1
+Host: toolbarqueries.google.com
+User-Agent: Mozilla/4.0 (compatible; GoogleToolbar 2.0.114-big; Windows XP 5.1)
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-cn,zh;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: GB2312,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 115
+Connection: close
+
+GET /data?cli=10&dat=nsa&ver=quirk-searchstatus&uid=20111026071425&userip=121.140.164.114&url=http%3A//web.chacuo.net/charsetxxencode HTTP/1.1
+Host: xml.alexa.com
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.2; zh-CN; rv:1.9.2) Gecko/20100115 Firefox/3.6 ( .NET CLR 3.5.30729; .NET4.0E)
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-cn,zh;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: GB2312,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 115
+Connection: close
+
+GET /cdn-cgi/l/chk_jschl?jschl_vc=d79c200ca6218a619a37991ed53e2568&pass=1476588525.117-cQOghl6Xzh&jschl_answer=1495 HTTP/1.1
+Host: web.chacuo.net
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.2; zh-CN; rv:1.9.2) Gecko/20100115 Firefox/3.6 ( .NET CLR 3.5.30729; .NET4.0E)
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-cn,zh;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: GB2312,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 115
+Referer: http://web.chacuo.net/charsetxxencode
+Cookie: __cfduid=d65f7be0d7ec4f3ce3689c8bba8ba0c6e1476588521
+Connection: close
+
+
+POST /charsetxxencode HTTP/1.1
+Host: web.chacuo.net
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.2; zh-CN; rv:1.9.2) Gecko/20100115 Firefox/3.6 ( .NET CLR 3.5.30729; .NET4.0E)
+Accept: */*
+Accept-Language: zh-cn,zh;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: GB2312,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 115
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+X-Requested-With: XMLHttpRequest
+Referer: http://web.chacuo.net/charsetxxencode
+Content-Length: 648
+Cookie: __cfduid=d65f7be0d7ec4f3ce3689c8bba8ba0c6e1476588521; cf_clearance=abd7bfc7d444b95d6331880fbe2fd14ca4ed9b24-1476588582-1800; Hm_lvt_ef483ae9c0f4f800aefdf407e35a21b3=1476588607; Hm_lpvt_ef483ae9c0f4f800aefdf407e35a21b3=1476588844; bdshare_firstime=1476588608002
+Pragma: no-cache
+Cache-Control: no-cache
+Connection: close
+
+data=hph0tswrsgP4yeHXIkX96pQzvnu6cjATJrxSjmeGoiW10vPGn8PvRph0tyhOi%0AhmTaVhh10ngKunP4cpfrJeh8ecPSle9L%2BcunGivCVpSiqpAWfiTfJzfWioBHJ%0AhfgvlhQGVgAbnjAOrtv4dcP5Lwgngm8j1thKtjueXfBDEoRH0qwipph0tyfuh%0AhjAD1tg5NpwKVgAiikiH8fvDqcP4plAuXizeVcvPIhAiXf9bujB8rcfX2nezL%0Ahe9nGpz9Av95hmfuXfAvGiTepq9SxpTusff8viy5DwPLLnBX0mR8voTb1tg5N%0AhlgOmyeCghOjGgh1fkzv5tRKinj4wofLLcO9FnvzMhyTDpO4X0UeVcO4VmQyk%0AhuwHecun6evbuiOitgf94pTv8pQXfjTPIxfCYBmsp7OCgpDOryQqggQWvqA9Y%0AhB0sriDOkqPTKhSCXfAnMgT18lvLMhvqljfmqggPJzgfJmCjIxgjNof91xwzI%0AhixX0t8CgpBfJywnZjeqwkxHqmxarlPiuhQGlgvuknw8Xf84khRWrjRKineCv%0AFye4lhw8rwB8vh8Kwh9SWcOA%2B%0A&type=xxencode&arg=s%3Dgb2312_t%3D1
+
+
